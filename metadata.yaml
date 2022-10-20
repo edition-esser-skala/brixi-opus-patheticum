@@ -1,0 +1,36 @@
+composer:
+  last: Brixi
+  first: František Xaver
+title: Opus patheticum de septem doloribus Beatæ Virginis Mariæ
+genre: oratorio
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 trb, 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: CZ-Pu
+    shelfmark: 59 R 25
+    date: 1830
+    rism: 550503026
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_R_25_____02I3B8D-cs
+    license: CC-BY-NC-Sa-4.0
+    principal: true
+    notes: parts for S, A, T, B, vl 1, vl 2, vla, vlne, and org
+  B2:
+    siglum: CZ-Pu
+    shelfmark: 59 R 25
+    date: 1850–1874
+    rism: 550503026
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_R_25_____02I3B8D-cs
+    license: CC-BY-NC-Sa-4.0
+    notes: full score
+  B3:
+    siglum: CZ-Pu
+    shelfmark: 59 rm 6
+    date: 1850–1874
+    rism: 550503087
+    url: https://www.manuscriptorium.com/apps/index.php?direct=record&pid=AIPDIG-NKCR__59_RM_6_____1FSVAO3-cs
+    license: CC-BY-NC-Sa-4.0
+    notes: full score, comprising movements XXX as gradual and YYY as offertorium
+imslp:
+extra_abbreviations:
+  vlne:
