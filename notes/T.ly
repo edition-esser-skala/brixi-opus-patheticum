@@ -116,3 +116,174 @@ SeptemTenoreLyrics = \lyricmode {
   ri de -- si -- de -- ro, mo --
   ri de -- si -- de -- ro. %72 finis
 }
+
+AnnaeTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \minor \time 3/4 \autoBeamOff \tempoAnnae
+    R2.*41 %41
+    \mvTr g4(\pE^\solo c) c-!
+    h-! c-! d-!
+    \appoggiatura f8 es4-! d-! r
+    r r as~-! %45
+    as g d'-!
+    c-! g-! r
+    r r as~-!
+    as g-! f'-!
+    \tuplet 3/2 4 { es8([ d c)] } c4-! r %50
+    es2.
+    es4( d) c-!
+    c( b) as-!
+    as8. g16 g4 r
+    es8([ g)] g([ b)] b([ es)] %55
+    es2 des4
+    des8([ c)] c4 r
+    r g' b,
+    as( e') f
+    f8([ as,)] as4.\trill as8-! %60
+    g2 r4
+    r c( e)
+    f2 es4
+    es(d) c-!
+    c8([ h)] h4 r %65
+    r f' as,
+    g( d') es
+    es8([ g,)] g4.\trill g8
+    f4 r r
+    as2 as4 %70
+    g( d') es-!
+    as2 as4
+    as8([ g) d( es)] b([ c)]
+    es,([ f)] f4.\trill f8
+    es4 r r %75
+    R2.*8 %83
+    b'4( es) es-!
+    es8([ d)] d4 r %85
+    des2.~
+    des4 c-! b-!
+    as8([ g)] f4 r
+    c'( f) f
+    f8([ e)] e4 r %90
+    es2.~
+    es4 d c
+    c8([ h)] h4 r
+    es2.~
+    es4 f c-! %95
+    d2 d4
+    d( es) h-!
+    c2 c4
+    c( d) a!-!
+    h r g %100
+    c( h) d-!
+    d( c) es
+    es( d) c-!
+    h-! r r
+    R2.*2 %106
+    g8.([ as!16)] b4 c
+    des( c) b
+    as f r
+    R2. %110
+    a8.([ b16)] c4 d
+    es!( d) c-!
+    c h r
+    d2 f,4
+    es8([ f) f( g)] g4 %115
+    as'2 as4
+    g( h,) c-!
+    d8([ a)] \appoggiatura c4 h4. h8
+    c4 e2
+    f8([ c)] c4 r %120
+    g'( c,) b-!
+    as f r
+    r d' f,
+    es8([ f) f( g)] g4
+    as'2 as4 %125
+    g( h,) c-!
+    d8([ a!)] \appoggiatura c4 h4. h8-!
+    c4 r r
+    R2.*11 %139
+    R2.\fermata \bar "|." %140 finis
+  }
+}
+
+AnnaeTenoreLyrics = \lyricmode {
+  An -- nae %42
+  ge -- mit se --
+  ne -- ctus,
+  ge -- %45
+  mit se --
+  ne -- ctus,
+  ge --
+  mit se --
+  ne -- ctus, %50
+  et
+  Si -- me --
+  on __ af --
+  fli -- gi -- tur,
+  do -- lo -- ris %55
+  en -- se
+  pe -- ctus,
+  quan -- do
+  ti -- bi
+  trans -- fi -- gi -- %60
+  tur,
+  do --
+  lo -- ris
+  en -- se
+  pe -- ctus, %65
+  quan -- do
+  ti -- bi
+  trans -- fi -- gi --
+  tur,
+  quan -- do %70
+  ti -- bi,
+  quan -- do
+  ti -- bi
+  trans -- fi -- gi --
+  tur. %75
+
+  An -- nae %84
+  ge -- mit, %85
+  ge --
+  mit se --
+  ne -- ctus,
+  An -- nae
+  ge -- mit, %90
+  ge --
+  mit se --
+  ne -- ctus,
+  et __
+  Si -- me -- %95
+  on af --
+  fli -- gi --
+  tur, af --
+  fli -- gi --
+  tur, et %100
+  Si -- me --
+  on __ af --
+  fli -- gi --
+  tur,
+
+  do -- lo -- ris %107
+  en -- se
+  pe -- ctus,
+  %110
+  do -- lo -- ris
+  en -- se
+  pe -- ctus,
+  quan -- do
+  ti -- bi, %115
+  quan -- do
+  ti -- bi
+  trans -- fi -- gi --
+  tur, do --
+  lo -- ris %120
+  en -- se
+  pe -- ctus,
+  quan -- do
+  ti -- bi,
+  quan -- do %125
+  ti -- bi
+  trans -- fi -- gi --
+  tur. %128 finis
+}

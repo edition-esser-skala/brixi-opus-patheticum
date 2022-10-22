@@ -84,3 +84,150 @@ SeptemViola = {
     es c d d, g4 r\fermata \bar "|." %278 finis
   }
 }
+
+AnnaeViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 3/4 \tempoAnnae
+    es2\f es4
+    d g g
+    c, h r
+    r d es
+    d2 h4 %5
+    c8. d16 es8 g f es
+    d2 es4
+    d2 h4
+    g4. es'8 d c
+    b!2 r4 %10
+    g as b
+    as2 r4
+    a b c
+    f,2 r4
+    d' es f %15
+    b,2 r4
+    r8 c-! h( c) h( c)
+    as4 b b
+    r8 es-! g( f) es( des)
+    c2 r4 %20
+    g2 c4
+    r8 f-! as( g) f( es!)
+    d2 r4
+    a2 d4
+    d r d %25
+    es r es
+    h r g'
+    c, h r
+    g2 r4
+    e' f g %30
+    c,2 r4
+    as'2 a4
+    d,2 r4
+    h' c d
+    g,2 r4 %35
+    r8 as-! g( as) g( as)
+    f4 g g,
+    c,8 c'-! h( c) h( c)
+    as2 r4
+    f g g %40
+    c,2 r4
+    c'\p es c
+    g' es h
+    c h r
+    r d es %45
+    d2 h4
+    c8. d16 es8 g f es
+    d2 es4
+    d2 h4
+    c4. es8 d c %50
+    b!4 \slurDashed g'8( es) g( es) \slurSolid
+    f2 es4
+    d2 b4
+    b b r
+    R2. %55
+    r4 es f
+    r g g
+    g2.
+    f4( g as)
+    r des, h %60
+    c r r
+    c2\f r4
+    r as'\p g
+    f2 es4
+    r f f %65
+    f2.
+    es4( f g)
+    r es a,
+    b r r
+    r8 b-! c( b) c( d) %70
+    es4 f( g)
+    r8 b,-! c( b) c( d)
+    es4 r r
+    b c b
+    g r r %75
+    g'\f as b
+    as r r
+    a b c
+    f,2 r4
+    r8 d-! es( d) es( f) %80
+    b,4 r r
+    es2 d4
+    <es g,>2 r4
+    b2\p b4
+    b b r %85
+    r g'\f f
+    e2.\p
+    f4 c8( b) b( as)
+    as2 c4
+    c c r %90
+    r a'\f g
+    fis2.\p
+    g4. f8 es d
+    c2 r4
+    f2 r4 %95
+    b,2 r4
+    es2 r4
+    as,2 r4
+    d2 r4
+    g,2 r4 %100
+    g2 r4
+    g2 r4
+    r f fis
+    g r r
+    r8 g'-!\f fis( g) fis( g) %105
+    g,2 r4
+    R2.
+    b4(\f c des)\p
+    c r r
+    r8 f\f f,4 r %110
+    R2.
+    c'4(\f d es)\p
+    es\trill d r
+    r g, g
+    g2 r4 %115
+    r d'\f d\p
+    g,2.
+    a?4 g2
+    g4 r des'
+    r8 c c c c c %120
+    c2.
+    c4 r r
+    g\f r g\p
+    g2 r4
+    r d'\f d\p %125
+    g,2.
+    a?4 g2
+    g4 r r
+    e'\f f g
+    c, r r %130
+    as'2 a4
+    d, r r
+    h' c d
+    g, r r
+    r8 as-! g( as) g( as) %135
+    f4 g g,
+    r8 c-! h( c) h( c)
+    as2 r4
+    f' g g,
+    c,2 r4\fermata \bar "|." %140 finis
+  }
+}
