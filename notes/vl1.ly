@@ -231,3 +231,118 @@ AnnaeViolinoI = {
     c2 r4\fermata \bar "|." %140 finis
   }
 }
+
+AegyptusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key es \major \time 2/2 \tempoAegyptus
+    \partial 4 \mvTr es4\p-\markup \remark "sempre" es8( g4) f8-! es( g4) f8-!
+    \appoggiatura f es4 b r es
+    f8( as4) g8-! f( as4) g8-!
+    \appoggiatura g f4 b, r f'
+    g8. as16 b2 es8( c) %5
+    \appoggiatura c b4 as8 g \appoggiatura b4 as2\trill
+    g8. as16 b2 es8( c)
+    \appoggiatura c b4 as8( g) \appoggiatura b4 as2\trill
+    g4 r r8 g'16( as) g8[-! b]-!
+    b( f) r f-! es-! es16( f) es8[-! g]-! %10
+    g( d) r d-! c-! c16( d) c8[-! es]-!
+    es( b) r b-! as( b) g( b)
+    f( b) d( b) f'( b,) f'( as)
+    \appoggiatura as g4 f2 es4
+    \appoggiatura es d2 r %15
+    b'8-! b,-! f-! b'-! g,-! b'-! as,-! b'-!
+    g,-! b'-! b,-! b'-! as,-! b'-! g,-! b'-!
+    f,-! b'-! d,,-! b''-! f,-! b'-! as,-! b'-!
+    g,-! b'-! b,-! b'-! as,-! b'-! g,-! b'-!
+    f,-! b16( c) b8[-! b,]-! b4 as\trill %20
+    \kneeBeam g8-! es''16( f) es8[-! es,]-! es4 des\trillE
+    des8( c) h( c) r f( e f)
+    r as( g f) c'( as g f)
+    \appoggiatura f es4 \appoggiatura f16 es( d es f) \appoggiatura g4 f2\trill
+    r8 es'( d es) r c( b c) %25
+    r as( g as) \appoggiatura g f4.\trill g16 as
+    \tuplet 3/2 4 { g8[ f es] as g f } \appoggiatura { es16[ f g] } f2\trill
+    es8. es'16 d8( es) d( c) b( c)
+    b( as) g( as) \appoggiatura g f4.\trill g16( as)
+    \tuplet 3/2 4 { g8[ f es] as g f } \appoggiatura { es16[ f g] } f2\trill %30
+    es8.-! es16-! b8( g) es'8.-! es16-! b8( g)
+    <es' g,>2 r4 es
+    es8( g4) f8-! es( g4) f8-!
+    \appoggiatura f es4 b r es
+    f8( as4) g8-! f( as4) g8-! %35
+    \appoggiatura g f4 b, r f'
+    g8. as16 b2 es8( c)
+    \appoggiatura c b4 as8( g) \appoggiatura b4 as2\trill
+    g8. as16 b2 es8( c)
+    \appoggiatura c b4 as8( g) \appoggiatura b4 as2\trill %40
+    g8-! b16( c) b8[-! es]-! es,4 r
+    g'2. a4
+    r8 b( a b) c( b a b)
+    f2. g4
+    r8 as!( g as) b( as) g4 %45
+    r8 f-! f-! f-! f-! f-! ges-! ges-!
+    ges4\trill f f r
+    r8 b-! b-! b-! r b-! b-! b-!
+    r b-! b-! b-! r b-! b-! b-!
+    r a-! a-! a-! r es-! es-! es-! %50
+    \appoggiatura f es4\trill d r8 f-! f-! f-!
+    r g-! g-! g-! r g-! g-! g-!
+    r f-! f-! f-! r f-! f-! f-!
+    r es-! es-! es-! r es-! es-! es-!
+    d4 b'( as! fis) %55
+    r8 g( fis g) r es( d c)
+    r b-! b-! b-! r a-! a-! a-!
+    b-! d16( es) d8[-! f]-! b( f) b( d,)
+    r c16( d) c8[-! c]-! es( c) b( a)
+    b8.-! b'16-! a8( b) a( g) f( g) %60
+    f( es) d( es) \appoggiatura d4 c4.\trill d16( es)
+    \tuplet 3/2 4 { d8[ c b] es d c } \appoggiatura { b16[ c d] } c2\trill
+    b8. b16 f8( d) b'8. b16 f8( d)
+    <b' d,>2 r4 b'
+    b8( as!) as( g) g( f) f( e) %65
+    f4. g16( as) g4 r
+    \appoggiatura b8 as4 g8( as) \appoggiatura c b4 as
+    as\trill g r2
+    as8( g) g( f) f( es!) es( d)
+    es4. f16( g) f4-! f-! %70
+    r8 ges-! ges-! ges-! r ges-! ges-! ges-!
+    r ges-! ges-! ges-! r ges-! ges-! ges-!
+    r f-! f-! f-! r ges-! ges-! ges-!
+    f-! b16( a) b8[-! b,]-! b4 r
+    r8 es-! es-! es-! r es-! es-! es-! %75
+    r es-! es-! es-! r es-! es-! es-!
+    r d-! d-! d-! r d-! d-! d-!
+    r es-! es-! es-! es4 r
+    r des( c) r
+    r es( d) f-! %80
+    r8 ges-! ges-! ges-! r ges-! ges-! ges-!
+    r a-! a-! a-! r a-! a-! a-!
+    b4 as,8(\trill g) g(\trill f) f(\trill es)
+    es4 r r2
+    r8 f'16(^\critnote g) f8[-! es]-! d( c) b( as) %85
+    g-! b16( c) b8[-! b]-! r b-! b-! b-!
+    r c-! c-! c-! r c-! c-! c-!
+    r b-! b-! b-! r b-! b-! b-!
+    r as-! as-! as-! r as-! as-! as-!
+    g4 es( des h) %90
+    r8 c( h c) r f( e f)
+    r as( g f) c'( as g f)
+    \appoggiatura f es4 \appoggiatura f16 es( d es f) \appoggiatura g4 f2\trill
+    es8-! b'16( c) b8[-! b]-! es( b) as( g)
+    r f16( g) f8[-! f]-! c'( a) f( es) %95
+    d-! b''-! f,-! b'-! g,-! b'-! as,-! b'-!
+    g,-! b'-! b,-! b'-! as,-! b'-! g,-! b'-!
+    f,-! b'-! d,,-! b''-! f,-! b'-! as,-! b'-!
+    g,-! b'-! b,-! b'-! as,-! b'-! g,-! b'-!
+    f,-! b16( c) b8[-! b,]-! b4 as\trill %100
+    \kneeBeam g8 es''16( f) es8[-! es,]-! es4 des\trillE
+    r8 c( h c) r f( e f) r as( g f) c'( as g f)
+    \appoggiatura f es4 \appoggiatura f16 es( d es f) \appoggiatura g4 f2\trill
+    es8. es'16 d8( es) d( c) b( c)
+    b( as) g( as) \appoggiatura g f4.\trill g16( as) %105
+    \tuplet 3/2 4 { g8[ f es] as g f } \appoggiatura { es16[ f g] } f2\trill %
+    es8.-! es16-! b8( g) es'8.-! es16-! b8( g)
+    <g es'>2 r\fermata \bar "|." %108 finis
+  }
+}

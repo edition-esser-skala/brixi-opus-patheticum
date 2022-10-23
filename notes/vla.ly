@@ -231,3 +231,119 @@ AnnaeViola = {
     c,2 r4\fermata \bar "|." %140 finis
   }
 }
+
+AegyptusViola = {
+  \relative c' {
+    \clef alto
+    \key es \major \time 2/2 \tempoAegyptus
+    \partial 4 r4 r \mvTr es\p-\markup \remark "sempre" es es
+    r es es,2
+    r4 b' b b
+    r b b2
+    r4 es es,2 %5
+    r4 es' b d
+    r es es,2
+    r4 es' b d
+    es^\critnote es, es r
+    d' d c c %10
+    b b as as
+    g g' f es
+    d b d f
+    es c2 c4
+    b b b2 %15
+    r4 d es f
+    es g f es
+    d b d f
+    es g f es
+    d b r8 b c d %20
+    es4 g r8 g, as b
+    as4 r c r
+    c r r c
+    r es2 d4
+    c b as g %25
+    f' es d b
+    b es2 d4
+    c b as g
+    f' es d b
+    b es2 d4 %30
+    g, r g r
+    <g es'>2 r
+    r4 es' es es
+    r es es,2
+    r4 b' b b %35
+    r b b2
+    r4 es es,2
+    r4 es' b d
+    r es es,2
+    r4 es' b-\critnote d %40
+    es b b r
+    es1
+    d4 d d2
+    des1
+    c4 c c b %45
+    r8 c-! c-! c-! c-! c-! c-! c-!
+    b4 b b r
+    r8 f'-! f-! f-! r f-! f-! f-!
+    r g-! g-! g-! r g-! g-! g-!
+    r f-! f-! f-! r f-! f-! f-! %50
+    f4 f c r
+    d r c r
+    c r b r
+    b r f' r
+    f b,( c d) %55
+    es r g, r
+    f r r8 c'-! c-! c-!
+    b4 r f' r
+    g r r f
+    g f es d %60
+    c b a f
+    f' b,2 a4
+    d r d r
+    <d b>2 r
+    r r4 b' %65
+    as! f e c
+    f r b, h
+    c c, c2
+    r r4 as''
+    g es d b %70
+    es r des r
+    ces r b r
+    a r a r
+    b b b r
+    r8 b-! b-! b-! r b-! b-! b-! %75
+    r c-! c-! c-! r c-! c-! c-!
+    r b-! b-! b-! r b-! b-! b-!
+    r b-! b-! b-! b4 r
+    r g'( as) r
+    r a( b) r %80
+    b, r b r
+    ces r ces r
+    b r r2
+    es4 r r2
+    b4 r b r %85
+    b r f' r
+    g r f r
+    f r es r
+    es r b r
+    b r r g %90
+    as r c r
+    c r r c
+    b es2 d4
+    g, r b r
+    c r c r %95
+    b' d, es f
+    es g f es
+    d b d f
+    es g f es
+    d b r8 b c d %100
+    es4 r r8 g, as b
+    as4 r c r
+    c r r c
+    r es2 d4
+    c b as g %105
+    f' es d b
+    b es2 d4
+    <es g,> r q r
+    q2 r\fermata \bar "|." %109 finis
+  }
+}

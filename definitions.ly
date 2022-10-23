@@ -8,6 +8,7 @@
 
 tempoSeptem = \tempoMarkup "Largo"
 tempoAnnae = \tempoMarkup "Larghetto"
+tempoAegyptus = \tempoMarkup "Andante"
 
 
 \include "notes/trb1.ly"

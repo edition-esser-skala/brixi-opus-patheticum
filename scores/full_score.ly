@@ -76,9 +76,56 @@
   %     \midi { \tempo 4 = 60 }
   %   }
   % }
+  % \bookpart {
+  %   \section "2" "Aria" "Annæ gemit senectus"
+  %   \addTocLabel "annae"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AnnaeViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AnnaeViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AnnaeViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "T"
+  %           \new Voice = "Tenore" { \dynamicUp \AnnaeTenore }
+  %         }
+  %         \new Lyrics \lyricsto Tenore \AnnaeTenoreLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \AnnaeOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AnnaeBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 110 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Aria" "Annæ gemit senectus"
-    \addTocLabel "annae"
+    \section "4" "Aria" "Ægyptus est asyli"
+    \addTocLabel "aegyptus"
     \paper {
       system-system-spacing.basic-distance = #30
       system-system-spacing.minimum-distance = #30
@@ -91,36 +138,36 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AnnaeViolinoI
+              \AegyptusViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AnnaeViolinoII
+              \AegyptusViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AnnaeViola
+            \AegyptusViola
           }
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = "T"
-            \new Voice = "Tenore" { \dynamicUp \AnnaeTenore }
+            \set Staff.instrumentName = "A"
+            \new Voice = "Alto" { \dynamicUp \AegyptusAlto }
           }
-          \new Lyrics \lyricsto Tenore \AnnaeTenoreLyrics
+          \new Lyrics \lyricsto Alto \AegyptusAltoLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \AnnaeOrgano
+            \AegyptusOrgano
           }
         >>
-        \new FiguredBass { \AnnaeBassFigures }
+        \new FiguredBass { \AegyptusBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 110 }
+      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
+      \midi { \tempo 2 = 60 }
     }
   }
 }

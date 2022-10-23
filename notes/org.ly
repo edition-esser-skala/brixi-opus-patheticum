@@ -455,3 +455,231 @@ AnnaeBassFigures = \figuremode {
   <6>4 <6 4> <5 _!>
   r2. %140 finis
 }
+
+AegyptusOrgano = {
+  \relative c {
+    \clef bass
+    \key es \major \time 2/2 \tempoAegyptus
+    \partial 4 r4 r \mvTr es\p-\markup \remark "sempre"-\soloE es es
+    r es es,2
+    r4 b' b b
+    r b b2
+    r4 es es,2 %5
+    r4 es' b d
+    r es es,2
+    r4 es' b d
+    es es, es r
+    d' d' c c, %10
+    b b' as as,
+    g g' f es
+    d b d f
+    es as8. g16 as4 a
+    b b, b2 %15
+    r4 d es f
+    es g f es
+    d b d f
+    es g f es
+    d b r8 b c d %20
+    es4 g r8 es f g
+    as4 r as r
+    as r r as
+    r g as b
+    c b as g %25
+    f es d b
+    es c' as b
+    c b as g
+    f es d b
+    es c as b %30
+    es, r es r
+    es2 r
+    r4 es' es es
+    r es es,2
+    r4 b' b b %35
+    r b b2
+    r4 es es,2
+    r4 es' b d
+    r es es,2
+    r4 es' b d %40
+    es es, es r
+    es'1
+    d4 d d2
+    des1
+    c4 c c' b %45
+    a r a a
+    b b, b r
+    b r d r
+    es r e r
+    f r a r %50
+    b b, a' r
+    b r c r
+    a r b r
+    g r a r
+    b b,( c d) %55
+    es r es r
+    f r f, r
+    b r d r
+    es r r f
+    g f es d %60
+    c b a f
+    b g' es f
+    b, r b r
+    b2 r
+    r r4 b' %65
+    as! f e c
+    f r b, h
+    c c, c2
+    r r4 as''
+    g es d b %70
+    es r des r
+    ces r b r
+    a r a r
+    b b b r
+    es r g r %75
+    as r a r
+    b r b, r
+    es r es, r
+    r g'( as) r
+    r \once \slurDashed a( b) r %80
+    b, r b r
+    ces r ces r
+    b r r2
+    es4 r r2
+    b4 r b r %85
+    es r d r
+    es r f r
+    d r es r
+    c r d r
+    es es( f g) %90
+    as r as r
+    f r r as
+    g c as b
+    es, r g r
+    as r a r %95
+    b d, es f
+    es g f es
+    d b d f
+    es g f es
+    d b r8 b c d %100
+    es4 r r8 es f g
+    as4 r as r
+    f r r as
+    r g as b
+    c b as g %105
+    f es d b
+    es c as b
+    es,^\critnote r es r
+    es2 r\fermata \bar "|." %109 finis
+  }
+}
+
+AegyptusBassFigures = \figuremode {
+  r4 r1
+  r
+  r
+  r
+  r %5
+  r2. <6 5>4
+  r1
+  r2. <6 5>4
+  r1
+  <6> %10
+  q
+  q2 q
+  q q4 q
+  r q2 <5>4
+  <6 4> <5 3>2. %15
+  r4 <6>2 q4
+  r q q2
+  q q4 q
+  r q q2
+  q2. q8 <\t> %20
+  r4 <6>2 <6->8 <\t>
+  r2 <6>
+  <\t>2. q4
+  r <6> <6 5>2
+  r1 %25
+  r2 <6 5>4 <\t \t>
+  r <6> <6 5>2
+  r1
+  r2 <6 5>4 <\t \t>
+  r <6> <6 5>2 %30
+  r1
+  r
+  r
+  r
+  r %35
+  r
+  r
+  r2 <7>
+  r1
+  r2 <7> %40
+  r1
+  <3>2. <4!>4
+  <[6]>1
+  <6 3>2. <\t 4>4
+  <6>2. <6 4>4 %45
+  <6 5>2 <\t \t>4 <7- 5>
+  <6- 4> <5 3>2.
+  r2 <6>
+  <6 5> <\t \t>
+  <_!> <6 5> %50
+  <9 4>4 <8 3> <6>2
+  <6 5>1
+  <6 5>
+  <6 5>2 q
+  r4 <8> <6-> <[6] _+> %55
+  r2 <[6]>
+  <6 4> <[7] _!>
+  r <6>
+  q2. <_!>4
+  r1 %60
+  r2 \bo <[6 5]>4 \bc <[\t \t]>
+  r <6> <6 5> <_!>
+  r1
+  r
+  r2. <4! _->4 %65
+  <6>2 <6>4 <[_!]>
+  r2 \bo <8 6 [_-]>4 \bc <7 5 [_!]>
+  <6 4> <[5] _!>2.
+  r2. <4 2>4
+  <6>2 q %70
+  <8 _-> <\t \t>
+  q q
+  <6 5> <7- 5>
+  <5>1
+  <[_!]>2 <6> %75
+  <6 5> <\t \t>
+  r1
+  r
+  r4 <6 5->2.
+  r4 <6 5> <[_!]>2 %80
+  <6- 4> <\t \t>
+  \bo <6! [5-]> \bc <\t [\t]>
+  r1
+  r
+  r %85
+  r2 <6>
+  <6 5>1
+  q
+  q2 <[6 5]>
+  r4 <8> <6-> <[6] _!> %90
+  r2 <6>
+  r2. <6>4
+  q2 <6 5>
+  r <6>
+  \bo <[6 5]> <\t \t> %95
+  r4 <6>2 q4
+  r q q2
+  q q4 q
+  r q q2
+  q2. q8 <\t> %100
+  r2. <6->8 \bc <[\t \l]>
+  r2 <6>
+  r2. <6>4
+  r \bo <[6 \l]> <6 5>2
+  r1 %105
+  r2 <6 5>4 <\t \t>
+  r2 \bc <[6 5]>
+  r1
+  r %109 finis
+}
