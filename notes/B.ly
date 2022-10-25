@@ -116,3 +116,437 @@ SeptemBassoLyrics = \lyricmode {
   ri de -- si -- de -- ro, mo --
   ri de -- si -- de -- ro. %72 finis
 }
+
+InPatrisBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \autoBeamOff \tempoInPatris
+    R2.*45 %45
+    \mvTr b'4\pE^\solo b, b'-!
+    b( a) g-!
+    g-! f-! r
+    g-! c-! es-!
+    \appoggiatura b a2 b4 %50
+    c8([ a] f4.) es8
+    d4 r r
+    R2.*2
+    b4-! d-! f-! %55
+    b-! c-! d-!
+    e,-! f-! r
+    c'2.
+    c
+    c %60
+    c
+    c4( g) as?-!
+    b2 b4
+    b8([ as?) \grace b16 as8( g)] \grace as16 g8([ f)]
+    \appoggiatura f e4 r r %65
+    R2.
+    r8 c'([ b a g f)]
+    d'([ c b a g f)]
+    e([ f g a b g)]
+    c([ b a g f e)] %70
+    d([ e f g a f)]
+    b([ a g f e d)]
+    c([ d e f g e)]
+    f([ e f g a h)]
+    c4 r f, %75
+    b,2.
+    c
+    d
+    e
+    f8. g16 a4 r %80
+    b2.
+    \appoggiatura b8 a4-! g-! r
+    g2.
+    f8([ a)] b([ e,)] f([ a)]
+    b([ g)] \appoggiatura f4 e4.^\critnote e8-! %85
+    f2 r4
+    R2.*11 %97
+    f4 a f
+    c'2 es,!4
+    \appoggiatura es8 d4 c r %100
+    b' b, b'
+    b( a) g
+    g8. f16 f4 r
+    g c es
+    \appoggiatura b a2 b4 %105
+    c8([ a] f4.) es8-!
+    d4 r r
+    R2.*2
+    b4 d f %110
+    b c des
+    e, f r
+    R2.
+    as,!4 c f
+    as b c %115
+    d,! es! r
+    R2.
+    b'
+    b
+    b %120
+    b
+    b4( f) g!-!
+    as2.~
+    as4 g a-!
+    b4.( c16[ d)] c8([ b)] %125
+    a4 r r
+    R2.
+    f4( b) f-!
+    g( a) b-!
+    b( a) g-! %130
+    g-! fis-! r
+    d'8([ c)] b([ a g f)]
+    es([ d c g' c b)]
+    a([ g f es d c)]
+    b([ f' b a g f)] %135
+    es([ d c b a g)]
+    f8[ f'( g f g a)]
+    \once \tieDashed b2.~
+    b8.([ c32 d)] c8([ b)] a([ g)]
+    a2 a4 %140
+    b2 g4
+    f r b,
+    es2.
+    f
+    g %145
+    a
+    b8. c16 d4 r
+    es,2.
+    \appoggiatura es8 d4 c r
+    a'2. %150
+    b8([ d)] es([ a,)] b([ f)]
+    g[( es)] \appoggiatura d4 c4.. b16
+    b4 r r
+    es2.
+    \appoggiatura es8 d4 c r %155
+    a'2.
+    b8([ d)] es([ a,)] b([ f)]
+    \appoggiatura a g8([ f16 es)] \appoggiatura d4 c4.. c16
+    b4 r r
+    R2.*43 %202
+    R2.\fermata \bar "|." %203 finis
+  }
+}
+
+InPatrisBassoLyrics = \lyricmode {
+  In Pa -- tris %46
+  es -- se
+  re -- bus
+  cum ne -- sci --
+  e -- bas %50
+  Fi -- li --
+  um
+
+  vi -- sa es %55
+  tri -- bus di --
+  e -- bus
+  pal --
+  le --
+  re, %60
+  pal --
+  le -- re
+  si -- cut
+  li -- li --
+  um, %65
+
+  pal --
+  le --
+  _
+  _ %70
+  _
+  _
+  _
+  _
+  re, pal -- %75
+  le --
+  re
+  si --
+  cut
+  li -- li -- um, %80
+  pal --
+  le -- re,
+  pal --
+  le -- re si --
+  cut li -- li -- %85
+  um.
+
+  In Pa -- tris %98
+  es -- se
+  re -- bus %100
+  cum ne -- sci --
+  e -- bas
+  Fi -- li -- um,
+  cum ne -- sci --
+  e -- bas %105
+  Fi -- li --
+  um
+
+  vi -- sa es %110
+  tri -- bus di --
+  e -- bus,
+
+  vi -- sa es
+  tri -- bus di -- %115
+  e -- bus
+
+  pal --
+  le --
+  re, %120
+  pal --
+  le -- re
+  si --
+  _ cut
+  li -- li -- %125
+  um,
+
+  vi -- sa
+  es __ tri --
+  bus __ di -- %130
+  e -- bus
+  pal -- le --
+  _
+  _
+  _ %135
+  _
+  _
+  _
+  _ re
+  si -- cut %140
+  li -- li --
+  um, pal --
+  le --
+  re
+  si -- %145
+  cut
+  li -- li -- um,
+  pal --
+  le -- re,
+  pal -- %150
+  le -- re si --
+  cut li -- li --
+  um,
+  pal --
+  le -- re, %155
+  pal --
+  le -- re si --
+  cut li -- li --
+  um. %159 finis
+}
+
+InPatrisBassoB = {
+  \relative c {
+    \clef bass
+    \key b \major \time 3/4 \autoBeamOff \tempoInPatris
+    R2.*45 %45
+    \mvTr b'4\pE^\solo b, b'~
+    b a g
+    g f r
+    g c es
+    \appoggiatura b a2 b4 %50
+    c8([ a] f4.) es8
+    d4 r r
+    R2.*2
+    b4( d) f %55
+    b c4. d8
+    e,4 f r
+    c'2.
+    c
+    c %60
+    c
+    c4( g) as?
+    c8([ b)] b4 b~
+    b8[( as]) as([ g)] g([ f)]
+    \appoggiatura f e4 r r %65
+    R2.
+    r8 c'([ b a)] g([ f)]
+    d'[ c b a g f]
+    e[ f g a b g]
+    c[ b a g f e] %70
+    d[ e f g a f]
+    b[ a g f e d]
+    c[ d e f g e]
+    f[ e] f([ g]) a([ h])
+    c8.([ b16)] a4 r %75
+    b,2.
+    c
+    d
+    e2 e4
+    f8. g16 a4 r %80
+    b2.
+    \appoggiatura b8 a4 g r
+    g2 g4
+    f4( g) a
+    b8([ g)] \appoggiatura f4 e4. e8 %85
+    f2 r4
+    R2.*11 %97
+    f4 \appoggiatura b8 a4 g8([ f)]
+    c'2 es,!4
+    \appoggiatura es8 d8. d16 c4 r %100
+    b' b, b'~
+    b a g
+    g8.([ f16]) f4 r
+    g c es
+    \appoggiatura b a2 b4 %105
+    c8([ a] f4.) es8
+    d4 r r
+    R2.*2
+    b4( d) f %110
+    b c4. des8
+    e,4 f r
+    R2.
+    as,4( c) f
+    as b4. c8 %115
+    d,!4 es! r
+    R2.
+    b'
+    b
+    b %120
+    b
+    b4( f) g!
+    as2.~
+    as4 g a
+    b4.( c16[ d)] c8([ b)] %125
+    \appoggiatura b a4 r r
+    R2.
+    f4 b f
+    g a b~
+    b a g %130
+    g8. g16 fis4 r
+    d'8([ c b a)] g([ f)]
+    es[ d c g' c b]
+    a[ g f es d c]
+    b[ f' b a g f] %135
+    es[ d c b a g]
+    f[ f' g f g a]
+    b2.~
+    b8.[ c32 d] c8[ b a g]
+    a2 a4 %140
+    b b4. g8
+    f8.([ es16)] d4 r
+    es2.
+    f
+    g %145
+    a2 a4
+    b8. c16 d4 r
+    es,2.
+    \appoggiatura es8 d4 c r
+    a'2. %150
+    b4 es, d
+    g8[( es)] \appoggiatura d4 c4. c8
+    b4 r r
+    es2.
+    \appoggiatura es8 d4 c r %155
+    a'2.
+    b8[ d es a,] b([ f)]
+    \appoggiatura a g8([ f16 es)] \appoggiatura d4 c4. c8
+    b4 r r
+    R2.*43 %202
+    R2.\fermata \bar "|." %203 finis
+  }
+}
+
+InPatrisBassoBLyrics = \lyricmode {
+  Sep -- tem tu -- %46
+  os do --
+  lo -- res,
+  Ma -- ri -- a,
+  dum con -- %50
+  si -- de --
+  ro,
+
+  te -- cum %55
+  pa -- ti la --
+  bo -- res,
+  te --
+  cum
+  mo -- %60
+  ri,
+  te -- cum
+  mo -- ri de --
+  si -- de --
+  ro, %65
+
+  te -- cum
+  pa --
+  _
+  _ %70
+  _
+  _
+  _
+  _ ti __ la --
+  bo -- res, %75
+  te --
+  cum
+  mo --
+  ri de --
+  si -- de -- ro, %80
+  mo --
+  _ ri,
+  te -- cum
+  mo -- ri
+  de -- si -- de -- %85
+  ro.
+
+  Ma -- ri -- a, __ %98
+  dum con --
+  si -- de -- ro %100
+  sep -- tem tu --
+  os do --
+  lo -- res,
+  Ma -- ri -- a,
+  dum con -- %105
+  si -- de --
+  ro,
+
+  te -- cum %110
+  pa -- ti la --
+  bo -- res,
+
+  te -- cum
+  pa -- ti la -- %115
+  bo -- res,
+
+  te --
+  cum
+  mo -- %120
+  ri,
+  te -- cum
+  mo --
+  ri de --
+  si -- de -- %125
+  ro,
+
+  tu -- os do --
+  lo -- res, dum __
+  _ con -- si -- %130
+  de -- ro,
+  te -- cum
+  pa --
+  _
+  _ %135
+  _
+  _
+  _
+  _
+  _ ti, %140
+  pa -- ti la --
+  bo -- res,
+  te --
+  cum
+  mo -- %145
+  ri de --
+  si -- de -- ro,
+  mo --
+  _ ri,
+  mo -- %150
+  _ _ ri
+  de -- si -- de --
+  ro,
+  mo --
+  _ ri, %155
+  mo --
+  _ ri __
+  de -- si -- de --
+  ro. %159 finis
+}

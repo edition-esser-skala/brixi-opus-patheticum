@@ -347,3 +347,213 @@ AegyptusViola = {
     q2 r\fermata \bar "|." %109 finis
   }
 }
+
+InPatrisViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 3/4 \tempoInPatris
+    b4\f r8 b d es
+    f4 r8 f g a
+    b4 r8 b, c d
+    es4 f g
+    \appoggiatura d c2 d4 %5
+    c r8 a b c
+    f,4 r8 b' f d
+    b4 b' g
+    es c f
+    b, r f' %10
+    g r g
+    c, a b
+    f' r8 f, a c
+    f2 d4
+    b g c %15
+    f, f' d
+    b g c
+    f f, r
+    r8 f'16 g a8 f a d
+    b4 c c, %20
+    f,8 f'16 g as8 f d c
+    h4 r g'
+    g8 es16 f g8 es c b
+    a4 r f'
+    f r8 f, b a %25
+    g b es d c b
+    a c f es d c
+    b d g f es d
+    c4 a'8( f) f4
+    f es g %30
+    f8-! a-! a,4 r
+    r8 f\p g f g a
+    b4 f r
+    r8 es'\f f, a c es
+    d4 c d %35
+    es f f,
+    b r r
+    g\p r r
+    es'2.\f
+    f2 es4\trillE %40
+    d r r
+    g,\p r r
+    es'2.\f
+    f2 es4\trill
+    d d r %45
+    b\p r8 b d es
+    f4 r8 f g a
+    b4 r8 b, c d
+    es4 d c
+    f es d %50
+    a r8 f g a
+    b4 b'\f g
+    es c f
+    b,2 r4
+    R2. %55
+    r4 r b\p
+    g a r
+    r8 c( d c d e)
+    f4 r r
+    r8 c( d c d e) %60
+    f4 r r
+    c e f
+    g d e
+    f es? des?
+    c r r %65
+    r8 c\f e g c b
+    a!2\p r4
+    b2.
+    e,
+    a %70
+    d,
+    g
+    c,
+    f4 d2
+    c4 r8 c, f e %75
+    d f b a g f
+    e g c b a g
+    f a d c b a
+    g4 c2
+    f,4 r r %80
+    r8 c'\fp d c d e
+    f4 c r
+    r8 b'\fp c, e g b
+    a4 g a
+    b c c, %85
+    f2 d4\f
+    b g c
+    f, f' d
+    b g c
+    f,8 f'16 g a8 f a, f' %90
+    b, b'16 a g8 b d, f
+    e4 r c
+    f r r
+    d\p r r
+    b2.\f %95
+    c2 c,4
+    f f r
+    f\p r r
+    r8 f g f g a
+    b4 f r %100
+    b r8 b d es
+    f4 r8 f g a
+    b4 r8 b, c d
+    es4 d c
+    f es d %105
+    a r8 f g a
+    b4 b'\f g
+    es c f
+    b,2 r4
+    R2. %110
+    r4 r b\p
+    g as r
+    c2\f r4
+    R2.
+    r4 r c\p %115
+    f, g r
+    b2\f r4
+    r8 b(\p c b c d)
+    es4 r r
+    r8 b( c b c d) %120
+    es4 r r
+    f d es
+    f c d
+    es2 r4
+    r d e %125
+    f r r
+    r8 f,\f a c f es!
+    d2.\p
+    es2 d4
+    c2 cis4 %130
+    d4. d8 d' c
+    b2 r4
+    c,2.
+    f
+    b, %135
+    es4 r r
+    f2 es4
+    d2.
+    c4 es c
+    a2 f'8( es) %140
+    d( c) b2
+    a4 r8 f b a
+    g b es d c b
+    a c f es d c
+    b d g f es d %145
+    c4 f2~
+    f4 b, r
+    r8 f\fp g f g a
+    b4 f r
+    r8 es'\fp f, a c es %150
+    d4 c d
+    es f f,
+    g r r
+    r8 f\fp g f g a
+    b4 f r %155
+    r8 es'\fp f, a c es
+    d4 c d
+    es f f,
+    b4 r8 b\f d es
+    f4 r8 f g a %160
+    b4 r8 b, c d
+    es4 f g
+    \appoggiatura d c2 d4
+    c r8 a b c
+    f,4 r8 b' f d %165
+    b4 b' g
+    es c f
+    b, r f'
+    g r g
+    c, a b %170
+    f' r8 f, a c
+    f2 d4
+    b g c
+    f, f' d
+    b g c %175
+    f f, r
+    r8 f'16 g a8 f a d
+    b4 c c,
+    f,8 f'16 g as8 f d c
+    h4 r g' %180
+    g8 es16 f g8 es c b
+    a4 r f'
+    f r8 f, b a
+    g b es d c b
+    a c f es d c %185
+    b d g f es d
+    c4 a'8( f) f4
+    f es g
+    f8-! a-! a,4 r
+    r8 f\p g f g a %190
+    b4 f r
+    r8 es'\f f, a c es
+    d4 c d
+    es f f,
+    b r r %195
+    g\p r r
+    es'2.\f
+    f2 es4\trillE
+    d r r
+    g,\p r r %200
+    es'2.\f
+    f2 es4\trill
+    d d r\fermata \bar "|." %203 finis
+  }
+}

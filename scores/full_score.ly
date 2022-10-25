@@ -123,14 +123,57 @@
   %     \midi { \tempo 4 = 110 }
   %   }
   % }
+  % \bookpart {
+  %   \section "4" "Aria" "Ægyptus est asyli"
+  %   \addTocLabel "aegyptus"
+  %   \paper {
+  %     system-system-spacing.basic-distance = #30
+  %     system-system-spacing.minimum-distance = #30
+  %     systems-per-page = #2
+  %   }
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff \with { \smallGroupDistance } <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \AegyptusViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \AegyptusViolinoII
+  %           }
+  %         >>
+  %         \new Staff {
+  %           \set Staff.instrumentName = "vla"
+  %           \AegyptusViola
+  %         }
+  %       >>
+  %       \new ChoirStaff <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "A"
+  %           \new Voice = "Alto" { \dynamicUp \AegyptusAlto }
+  %         }
+  %         \new Lyrics \lyricsto Alto \AegyptusAltoLyrics
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = \markup \center-column { "org" "b" }
+  %           % \transpose c c,
+  %           \AegyptusOrgano
+  %         }
+  %       >>
+  %       \new FiguredBass { \AegyptusBassFigures }
+  %     >>
+  %     \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
+  %     \midi { \tempo 2 = 60 }
+  %   }
+  % }
   \bookpart {
-    \section "4" "Aria" "Ægyptus est asyli"
-    \addTocLabel "aegyptus"
-    \paper {
-      system-system-spacing.basic-distance = #30
-      system-system-spacing.minimum-distance = #30
-      systems-per-page = #2
-    }
+    \section "5" "Aria" "In Patris esse rebus"
+    \addTocLabel "inpatris"
+    \paper { systems-per-page = #2 }
     \score {
       <<
         \new StaffGroup <<
@@ -138,36 +181,41 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \AegyptusViolinoI
+              \InPatrisViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \AegyptusViolinoII
+              \InPatrisViolinoII
             }
           >>
           \new Staff {
             \set Staff.instrumentName = "vla"
-            \AegyptusViola
+            \InPatrisViola
           }
         >>
         \new ChoirStaff <<
+          \set ChoirStaff.instrumentName = "B"
           \new Staff {
-            \set Staff.instrumentName = "A"
-            \new Voice = "Alto" { \dynamicUp \AegyptusAlto }
+            \new Voice = "Basso" { \dynamicUp \InPatrisBasso }
           }
-          \new Lyrics \lyricsto Alto \AegyptusAltoLyrics
+          \new Lyrics \lyricsto Basso \InPatrisBassoLyrics
+
+          \new Staff {
+            \new Voice = "BassoB" { \dynamicUp \InPatrisBassoB }
+          }
+          \new Lyrics \lyricsto BassoB \InPatrisBassoBLyrics
         >>
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "org" "b" }
             % \transpose c c,
-            \AegyptusOrgano
+            \InPatrisOrgano
           }
         >>
-        \new FiguredBass { \AegyptusBassFigures }
+        \new FiguredBass { \InPatrisBassFigures }
       >>
-      \layout { \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/8) }
-      \midi { \tempo 2 = 60 }
+      \layout { }
+      \midi { \tempo 4 = 110 }
     }
   }
 }

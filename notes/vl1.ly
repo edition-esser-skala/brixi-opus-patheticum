@@ -346,3 +346,213 @@ AegyptusViolinoI = {
     <g es'>2 r\fermata \bar "|." %108 finis
   }
 }
+
+InPatrisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 3/4 \tempoInPatris
+    b''4\f f b
+    b( a) g-!
+    g\trill f r
+    g,4. c16( d) es8-! c-!
+    \appoggiatura b4 a2 b4 %5
+    c8( a) f4. es8
+    es4\turn d r
+    r b''2~
+    b4 a2
+    b8-! b16( c) d8-! b-! f-! d-! %10
+    c-! es16( f) g8-! es-! c-! b-!
+    a-! a16( b) c8-! es,-! d-! b'-!
+    b4 a r
+    r f'2~
+    f4 e2 %15
+    f8-! f16( g) a8-! f-! a,-! f'-!
+    g,-! g'16( a) b8-! g-! g,-! b'-!
+    a-! a16( b) c8-! c-! c-! c-!
+    c2 r8 f,-!
+    \appoggiatura c'16 b8 a16( g) f4-! e-!\trill %20
+    f r f~
+    f8 d g( f es! d)
+    es4 r es~
+    es8 c f( es d c)
+    b( f) b4 d~ %25
+    d8 g, c d es4~
+    es8 a, d es f4~
+    f8 b, es f g4~
+    g8 f c'( a) f(^\critnote es)
+    d( f) g( es) \appoggiatura d16 c8 b %30
+    a8-! f'-! f,4 r
+    \appoggiatura f es2.\p
+    \appoggiatura es8 d4-! c-! r
+    a''2.\f
+    b8( d,) es( a,) b( f) %35
+    \appoggiatura a16 g8 f16( es) d4-! c-!
+    b8-! d'(\p c d es d)
+    r d,( c d es d)
+    r g'(\f a b a g)
+    f8. es16 d4 c\trill %40
+    b8-! d(\p c d es d)
+    r d,( c d es d)
+    r g'(\f a b a g)
+    f8. es16 d4 c\trill
+    b8. f16 b4 r %45
+    b'\p b, b'
+    b( a) g-!
+    g\trill f r
+    g,4. c16( d) es8-! c-!
+    \appoggiatura b4 a2 b4 %50
+    c8( a) f4. es8
+    d4 b''2~\f
+    b4 a2
+    b4-! b,-! r
+    R2. %55
+    r4 r d\p
+    e, f r
+    c'2.~
+    c8 c'( b as? g f)
+    e4 c2~ %60
+    c8 c'( b as? g f)
+    e4 r r
+    b2.
+    b8( as?) as( g) g( f)
+    e-! c'16(\f d) e8-! c-! g-! e-! %65
+    c4 r r
+    c'2\p r4
+    d-! d'8( c) b( a)
+    g( f) e4 d\trill
+    c-! c'8( b) a( g) %70
+    f( e) d4 c\trill
+    b-! b'8( a) g( f)
+    e( d) c4 b\trill
+    a f'2
+    e8 c, f4 a~ %75
+    a8 d, g a b4~
+    b8 e, a b c4~
+    c8 f, b c d4~
+    d8 c-! g'( e) c( b)
+    a8. b16 c8 f,-! g-! a-! %80
+    b2.\fp
+    \appoggiatura b8 a4-! g-! r
+    e'2.\fp
+    f8( a) b( e,) f( c)
+    d( b) a4-! g-!\trill %85
+    f f'2~\f
+    f4 e2
+    f8-! f16( g) a8-! f-! a,-! f'-!
+    g,-! g'16( a) b8-! g-! g,-! b'-!
+    a4 c2~ %90
+    c4 b2~
+    b16( a g a) g( f e f) e( d c b)
+    a8-! a'(\p g a b a)
+    r a,( g a b a)
+    r d(\f e f e d) %95
+    c8. b16 a4 g\trill
+    f8. c16 f4 r
+    f\p a f
+    c'2 es,!4
+    \appoggiatura es8 d4-! c-! r %100
+    b'' b ,b'
+    b( a) g-!
+    g\trill f r
+    g,4. c16( d) es8-! c-!
+    \appoggiatura b4 a2 b4 %105
+    c8( a) f4. es8
+    d4 b''2~\f
+    b4 a2
+    b4 b, r
+    R2. %110
+    r4 r des\p
+    e, f8-! f'16(\f g) as8-! f-!
+    c-! as-! f4 r
+    R2.
+    r4 r c'\p %115
+    d,! es!8-! es'16(\f f) g8-! es-!
+    b-! g-! es4 r
+    b'2.~\p
+    b8 b'( as ges? f es)
+    d4 b2~ %120
+    b8 b'( as ges? f es)
+    d4 f, g!
+    as2.~
+    as4 g a
+    b4. c16( d) c8-! b-! %125
+    a-! f'16(\f g) a8-! f-! c-! a-!
+    f2 r4
+    f(\p b f)
+    g a b~
+    b a g %130
+    g\turn-! fis-! r
+    d' d'8( c) b( a)
+    g( f) es4-! c-!
+    c'8( b) a( g) f( es)
+    d4-! b-! b'8-! a-! %135
+    g( f) es( d) c( b)
+    a4 r r
+    r8 b-! c( b) c( d)
+    es2.~
+    es8.( f32 g) f8( es) d( c) %140
+    b( a) b( c) d( e)
+    f-! f,-! b4 d~
+    d8 g, c d es4~
+    es8 a, d es f4~
+    f8 b, es f g4~ %145
+    g8 f c'( a f es)
+    d8. es16 f4 r
+    es,2.\fp
+    \appoggiatura es8 d4-! c-! r
+    a''2.\fp %150
+    b8( d,) es( a,) b( f)
+    \appoggiatura a16 g8 f16( es16) d4-! c-!
+    b8-! b'( a g f e)
+    es2.\fp
+    \appoggiatura es8 d4-! c-! r %155
+    a''2.\fp
+    b8( d,) es( a,) b( f)
+    \appoggiatura a16 g8 f16( es) d4-! c-!
+    b4 f''\f b
+    b( a) g-! %160
+    g\trill f r
+    g,4. c16( d) es8-! c-!
+    \appoggiatura b4 a2 b4
+    c8( a) f4. es8
+    es4\turn d r %165
+    r b''2~
+    b4 a2
+    b8-! b16( c) d8-! b-! f-! d-!
+    c-! es16( f) g8-! es-! c-! b-!
+    a-! a16( b) c8-! es,-! d-! b'-! %170
+    b4 a r
+    r f'2~
+    f4 e2
+    f8-! f16( g) a8-! f-! a,-! f'-!
+    g,-! g'16( a) b8-! g-! g,-! b'-! %175
+    a-! a16( b) c8-! c-! c-! c-!
+    c2 r8 f,-!
+    \appoggiatura c'16 b8 a16( g) f4-! e-!\trill
+    f r f~
+    f8 d g( f es! d) %180
+    es4 r es~
+    es8 c f( es d c)
+    b( f) b4 d~
+    d8 g, c d es4~
+    es8 a, d es f4~ %185
+    f8 b, es f g4~
+    g8 f c'( a) f(^\critnote es)
+    d( f) g( es) \appoggiatura d16 c8 b
+    a8-! f'-! f,4 r
+    \appoggiatura f es2.\p %190
+    \appoggiatura es8 d4-! c-! r
+    a''2.\f
+    b8( d,) es( a,) b( f)
+    \appoggiatura a16 g8 f16( es) d4-! c-!
+    b8-! d'(\p c d es d) %195
+    r d,( c d es d)
+    r g'(\f a b a g)
+    f8. es16 d4 c\trill
+    b8-! d(\p c d es d)
+    r d,( c d es d) %200
+    r g'(\f a b a g)
+    f8. es16 d4 c\trill
+    b8. f16 b4 r\fermata \bar "|." %203 finis
+  }
+}
