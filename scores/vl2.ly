@@ -1,19 +1,19 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Chorus" "Septem tuos dolores"
     \addTocLabel "septem"
-    \paper { indent = 2\cm }
+    \paper { page-count = #3 indent = 2\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \SeptemOrgano
+          \set Staff.instrumentName = "Violino II"
+          \SeptemViolinoII
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocLabel "annae"
     \score {
       <<
-        \new Staff { \AnnaeOrgano }
+        \new Staff { \AnnaeViolinoII }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocLabel "fugis"
     \score {
       <<
-        \new Staff { \FugisOrgano }
+        \new Staff { \FugisViolinoII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocLabel "aegyptus"
     \score {
       <<
-        \new Staff { \AegyptusOrgano }
+        \new Staff { \AegyptusViolinoII }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocLabel "inpatris"
     \score {
       <<
-        \new Staff { \InPatrisOrgano }
+        \new Staff { \InPatrisViolinoII }
       >>
     }
   }

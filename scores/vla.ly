@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \SeptemOrgano
+          \set Staff.instrumentName = "Viola"
+          \SeptemViola
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocLabel "annae"
     \score {
       <<
-        \new Staff { \AnnaeOrgano }
+        \new Staff { \AnnaeViola }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocLabel "fugis"
     \score {
       <<
-        \new Staff { \FugisOrgano }
+        \new Staff { \FugisViola }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocLabel "aegyptus"
     \score {
       <<
-        \new Staff { \AegyptusOrgano }
+        \new Staff { \AegyptusViola }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocLabel "inpatris"
     \score {
       <<
-        \new Staff { \InPatrisOrgano }
+        \new Staff { \InPatrisViola }
       >>
     }
   }
