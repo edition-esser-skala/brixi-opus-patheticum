@@ -733,6 +733,6 @@ InPatrisViolinoI = {
     r d,( c d es d) %200
     r g'(\f a b a g)
     f8. es16 d4 c\trill
-    b8. f16 b4 r\fermata \bar "|." %203 finis
+    b8. f16 b4 r\fermata \markFugisDaCapo \bar "|." %203 finis
   }
 }

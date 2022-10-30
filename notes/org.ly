@@ -1300,7 +1300,7 @@ InPatrisOrgano = {
     g'\p r r %200
     es2.\f
     f2 f,4
-    b b r\fermata \bar "|." %203 finis
+    b b r\fermata \markFugisDaCapo \bar "|." %203 finis
   }
 }
 

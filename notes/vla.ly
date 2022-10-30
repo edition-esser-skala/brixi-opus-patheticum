@@ -703,6 +703,6 @@ InPatrisViola = {
     g,\p r r %200
     es'2.\f
     f2 es4\trill
-    d d r\fermata \bar "|." %203 finis
+    d d r\fermata \markFugisDaCapo \bar "|." %203 finis
   }
 }

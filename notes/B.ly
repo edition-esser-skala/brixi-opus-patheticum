@@ -722,7 +722,7 @@ InPatrisBassoB = {
     \appoggiatura a g8([ f16 es)] \appoggiatura d4 c4. c8
     b4 r r
     R2.*43 %202
-    R2.\fermata \bar "|." %203 finis
+    R2.\fermata \markFugisDaCapo \bar "|." %203 finis
   }
 }
 

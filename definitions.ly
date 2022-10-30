@@ -2,8 +2,16 @@
 
 #(define option-movement-title-format "genre-number-title")
 #(define option-init-toc #t)
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
+
+
+markFugisDaCapo = {
+  \once \override Score.RehearsalMark.break-visibility =
+    #begin-of-line-invisible
+  \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark \markup \remark "Fugis Maria da capo"
+}
 
 
 tempoSeptem = \tempoMarkup "Largo"

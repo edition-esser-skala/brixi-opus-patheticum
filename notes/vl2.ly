@@ -723,6 +723,6 @@ InPatrisViolinoII = {
     r b,( a b c b) %200
     r es'(\f f g f es)
     d8. c16 b4 a\trill
-    b8. f16 b4 r\fermata \bar "|." %203 finis
+    b8. f16 b4 r\fermata \markFugisDaCapo \bar "|." %203 finis
   }
 }
