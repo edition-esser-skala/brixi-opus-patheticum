@@ -117,6 +117,269 @@ SeptemTenoreLyrics = \lyricmode {
   ri de -- si -- de -- ro. %72 finis
 }
 
+FugisTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \minor \time 3/4 \autoBeamOff \tempoFugis
+    R2.*12 %12
+    \mvDl d4\fE^\tuttiE d r \noBreak
+    d d r\fermata \bar "||"
+    \time 2/2 \tempoFugisB \newSpacingSection
+      R1*16 %30
+    d1
+    b2 es
+    fis,( c')
+    es,!1
+    r4 d e fis %35
+    g d g2~
+    g fis4. fis8
+    g2 c~
+    c h4( cis)
+    d cis d2 %40
+    e4 d e2~
+    e4 f g f
+    e1
+    a,
+    g2. g4 %45
+    fis fis g a
+    b2 b
+    a2. a4
+    g2 r
+    R1 %50
+    r4 c-! a-! c-!
+    b2 a
+    g b
+    a2. a4
+    g g a h %55
+    c g c2~
+    c h4. h8
+    c2 r
+    R1*5 %63
+    r2 c
+    d4 c d2~ %65
+    d4 es f es
+    d1~
+    d2 c
+    R1
+    r2 f~ %70
+    f4 es d c
+    h1
+    c2 r
+    R1*6 %79
+    f1 %80
+    d2 g
+    a,( es')
+    g,1
+    r4 f g a
+    b f b2~ %85
+    b a4. a8
+    b2 d
+    c f
+    d es
+    es2. c4 %90
+    b2 r
+    R1*9 %100
+    r4 e( f g)
+    c,1
+    b2. b4
+    as2 d!~
+    d c4( b!) %105
+    a!1
+    R
+    d
+    b2 es
+    fis,( c') %110
+    es,!1
+    r4 d e fis
+    g d g2~
+    g fis4. fis8
+    g2 b %115
+    a d~
+    d cis
+    d r
+    R1*8 %126
+    d1
+    a2 r
+    e'1
+    a,2 r %130
+    R1*4
+    d1 %135
+    d2 r
+    R1*3
+    d1 %140
+    c2 d
+    es2. es4
+    a,2 r
+    d1
+    b2 es %145
+    fis, c'~
+    c4 b a g
+    fis2 g~
+    g fis4 a
+    b1~ %150
+    b2 a4( c)
+    d1~
+    d2 c~
+    c b
+    a1~ %155
+    a2 g
+    fis r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/4 \tempoFugisC \newSpacingSection
+      d'4 d d \noBreak %160
+    d2 d4
+    d8([ c)] c4 r
+    c c c
+    c2 c4
+    c8([ b)] b4 b %165
+    b4. b8 b4
+    b b( a8.) a16-!
+    b2 r4
+    b b b
+    as2 as4 %170
+    as8([ g)] g4 r
+    c c c
+    b!2 b4
+    b8([ a!)] a4 r
+    c2. %175
+    c4 b r
+    es2.
+    d4. a8 b4
+    es d4. d8
+    d4 r r %180
+    R2.*3
+    R2.\fermata \bar "|." %184 finis
+  }
+}
+
+FugisTenoreLyrics = \lyricmode {
+  Fu -- gis, %13
+  fu -- gis,
+
+  fu -- %31
+  gis, Ma --
+  ri --
+  a,
+  pro -- lis o -- %35
+  nu -- sta pon --
+  _ de --
+  re, ca --
+  ro __
+  pon -- _ _ %40
+  _ _ _
+  _ _ _
+  _
+  _
+  _ de -- %45
+  re, o -- nu -- sta
+  ca -- ro
+  pon -- de --
+  re,
+  %50
+  pro -- lis o --
+  nu -- sta
+  ca -- ro
+  pon -- de --
+  re, o -- nu -- sta %55
+  ca -- ro pon --
+  _ de --
+  re,
+
+  ca -- %64
+  _ _ _ %65
+  _ _ _
+  _
+  ro,
+
+  o -- %70
+  _ _ _
+  nu --
+  sta,
+
+  fu -- %80
+  gis, Ma --
+  ri --
+  a,
+  pro -- lis o --
+  nu -- sta pon -- %85
+  _ de --
+  re, o --
+  nu -- sta
+  ca -- ro
+  pon -- de -- %90
+  re,
+
+  ca -- %101
+  ro
+  pon -- de --
+  re, pon --
+  de -- %105
+  re,
+
+  fu --
+  gis, Ma --
+  ri -- %110
+  a,
+  pro -- lis o --
+  nu -- sta pon --
+  _ de --
+  re, ca -- %115
+  ro pon --
+  de --
+  re,
+
+  fu -- %127
+  gis,
+  fu --
+  gis, %130
+
+  fu -- %135
+  gis,
+
+  o -- %140
+  nu -- sta
+  pon -- de --
+  re,
+  fu --
+  gis, Ma -- %145
+  ri -- _
+  _ _ _
+  a, pro --
+  lis o --
+  nu -- %150
+  sta __
+  ca --
+  _
+  ro
+  pon -- %155
+  de --
+  re,
+
+  et lu -- mi -- %160
+  na -- re
+  so -- lis,
+  et lu -- mi --
+  na -- re
+  so -- lis de %165
+  no -- cte vis
+  ab -- scon -- de --
+  re,
+  et lu -- mi --
+  na -- re %170
+  so -- lis,
+  et lu -- mi --
+  na -- re
+  so -- lis
+  de %175
+  no -- cte,
+  de
+  no -- cte vis
+  ab -- scon -- de --
+  re. %180 finis
+}
+
+
 AnnaeTenore = {
   \relative c' {
     \clef "treble_8"

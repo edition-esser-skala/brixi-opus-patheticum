@@ -117,6 +117,309 @@ SeptemAltoLyrics = \lyricmode {
   ri de -- si -- de -- ro. %72 finis
 }
 
+FugisAlto = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \autoBeamOff \tempoFugis
+    R2.*12 %12
+    \mvDl g'4\fE^\tuttiE fis r \noBreak
+    g fis r\fermata \bar "||"
+    \time 2/2 \tempoFugisB \newSpacingSection
+      R1*7 %21
+    g1
+    f!2 b
+    cis,( g')
+    b,!1 %25
+    r4 a h cis
+    d a d2~
+    d cis4. cis8
+    d4 d-! e-! fis-!
+    g d g2~ %30
+    g fis
+    g4 fis g2
+    a4 g a2~
+    a4 b c b
+    a1 %35
+    d,
+    c2. c4
+    b2 es(
+    d2.) e4
+    f!4 e f2 %40
+    g4 f g2~
+    g4 a b a
+    g1~
+    g2 f
+    e2. e4 %45
+    d1
+    R1*2
+    g1
+    d2 r %50
+    R1*6 %56
+    g1
+    es2 as
+    h,( f')
+    as,1 %60
+    r4 g-! a-! h-!
+    c g c2~
+    c h4. h8
+    c2 es
+    f4 es f2~ %65
+    f4 g as g
+    f1~
+    f2 es
+    d2. d4
+    c2 r %70
+    R1*2
+    r2 f~
+    f es
+    d1 %75
+    es2 g(
+    f) f
+    g es~
+    es d
+    c2. c4 %80
+    b2 r
+    R1*7 %88
+    b'1
+    g2 c %90
+    d,( as')
+    c,1
+    r4 b-! c-! d-!
+    es( b) es2~
+    es d %95
+    e f~
+    f4 f e2
+    f4 e f2
+    g4 f g2~
+    g4 as b as %100
+    g1~
+    g2 f
+    R1
+    r2 as
+    g1 %105
+    fis
+    g
+    fis4 a g( fis)
+    g2. g4
+    a1 %110
+    R1*6 %116
+    a1
+    f2 b
+    cis,( g')
+    b,!1 %120
+    r4 a-! h-! cis-!
+    d a d2~
+    d cis4. cis8
+    d4 cis-! d-! e-!
+    f2 f %125
+    e2. e4
+    d2 r
+    R1
+    r4 g-! e-! g-!
+    f2 e %130
+    d f
+    e2. e4
+    fis fis g a
+    b2 b
+    a2. a4 %135
+    b2 g
+    a4 g a2~
+    a4 b c b
+    a1~
+    a2 g %140
+    a1
+    g2. g4
+    fis2 r
+    fis1
+    g2 g %145
+    a1
+    d,2( es)
+    d1
+    d
+    d %150
+    d
+    d
+    g2 a
+    fis g
+    fis1 %155
+    d2. d4
+    d2 r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/4 \tempoFugisC \newSpacingSection
+      g4 g g\noBreak %160
+    g2 g4
+    g g r
+    g g g
+    f2 f4
+    f f f %165
+    g4. g8 g4
+    f8([ es)] f4. f8
+    d2 r4
+    f f f
+    f4.( g16[ as] g8) f-! %170
+    f8([ e)] e4 r
+    g g g
+    g4.( a!16[ b] a8) g-!
+    g[( fis)] fis4 r
+    a2. %175
+    g4 g r
+    a2.
+    b4. c8 b4
+    a( g) fis8. fis16-!
+    g4 r r %180
+    R2.*3
+    R2.\fermata \bar "|." %184 finis
+  }
+}
+
+FugisAltoLyrics = \lyricmode {
+  Fu -- gis, %13
+  fu -- gis,
+
+  fu -- %22
+  gis, Ma --
+  ri --
+  a, %25
+  pro -- lis o --
+  nu -- sta pon --
+  _ de --
+  re, pro -- lis o --
+  nu -- _ _ %30
+  sta
+  ca -- _ _
+  _ _ _
+  _ _ _
+  _ %35
+  ro
+  pon -- de --
+  re, ca --
+  ro
+  pon -- _ _ %40
+  _ _ _
+  _ _ _
+  _
+  _
+  _ de -- %45
+  re,
+
+  fu -- %49
+  gis, %50
+
+  fu -- %57
+  gis Ma --
+  ri --
+  a, %60
+  pro -- lis o --
+  nu -- sta pon --
+  _ de --
+  re, ca --
+  _ _ _ %65
+  _ _ _
+  _
+  ro
+  pon -- de --
+  re, %70
+
+  ca -- %73
+  _
+  _ %75
+  ro, ca --
+  ro
+  pon -- _
+  _
+  _ de -- %80
+  re,
+
+  fu -- %89
+  gis, Ma -- %90
+  ri --
+  a,
+  pro -- lis o --
+  nu -- sta __
+  _ %95
+  pon -- _
+  de -- re,
+  ca -- _ _
+  _ _ _
+  _ _ _ %100
+  _
+  ro,
+
+  o --
+  nu -- %105
+  sta
+  ca --
+  _ _ ro __
+  pon -- de --
+  re, %110
+
+  fu -- %117
+  gis, Ma --
+  ri --
+  a, %120
+  pro -- lis o --
+  nu -- sta pon --
+  _ de --
+  re, pro -- lis o --
+  nu -- sta %125
+  pon -- de --
+  re,
+
+  pro -- lis o --
+  nu -- sta %130
+  ca -- ro
+  pon -- de --
+  re, pro -- lis o --
+  nu -- sta
+  pon -- de -- %135
+  re, ca --
+  _ _ _
+  _ _ _
+  _
+  ro %140
+  pon --
+  _ de --
+  re,
+  fu --
+  gis, Ma -- %145
+  ri --
+  a, __
+  pro --
+  lis
+  o -- %150
+  nu --
+  sta
+  ca -- ro
+  pon -- _
+  _ %155
+  _ de --
+  re,
+
+  et lu -- mi -- %160
+  na -- re
+  so -- lis,
+  et lu -- mi --
+  na -- re
+  so -- lis de %165
+  no -- cte vis
+  ab -- scon -- de --
+  re,
+  et lu -- mi --
+  na -- re %170
+  so -- lis,
+  et lu -- mi --
+  na -- re
+  so -- lis
+  de %175
+  no -- cte,
+  de
+  no -- cte vis
+  ab -- scon -- de --
+  re. %180 finis
+}
+
+
 AegyptusAlto = {
   \relative c' {
     \clef treble

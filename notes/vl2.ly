@@ -232,6 +232,176 @@ AnnaeViolinoII = {
   }
 }
 
+FugisViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoFugis
+    b'4\fE b b
+    b4.( c16 d) c8-!  b-!
+    b([ a)] a-! fis'([ e fis)]
+    d4 d d
+    d4.( es!16 f) es8-! d-! %5
+    d([ c)] c-! es([ d es)]
+    a,2.
+    b4. c8 b4
+    a g( fis)\trill
+    g r r %10
+    r8 fis( a c,) es4~
+    es8( d) c4 b8( g')
+    g4( fis8) c'([ b g)]-\critnote \noBreak
+    g4-! fis-! r\fermata \bar "||"
+    \time 2/2 \tempoFugisB \newSpacingSection
+      R1*7 %21
+    g1-\markup \remark "sempre cantabile"
+    f!2 b
+    cis, g'
+    b,!1 %25
+    r4 a( h cis)
+    d a \once \tieDashed d2~
+    d cis
+    d4-! d( e fis)
+    g d g2~ %30
+    g fis
+    g4( fis) g2
+    a4( g) a2~
+    a4 b c b
+    a1 %35
+    d,
+    c2. c4
+    b2 es
+    d2. e4
+    f!4( e) f2 %40
+    g4( f) g2~
+    g4 a( b a)
+    g1~
+    g2 f
+    e2. e4 %45
+    d1
+    R1*2
+    g1
+    d2 r %50
+    R1*6 %56
+    g1
+    es2 as
+    h, f'
+    as,1 %60
+    r4 g( a h)
+    c g c2~
+    c h
+    c es
+    f4( es) \once \tieDashed f2~ %65
+    f4 g( as g)
+    f1~
+    f2 es
+    d2. d4
+    c2 r %70
+    R1*2
+    r2 f~
+    f es
+    d1 %75
+    es2 g
+    f f
+    g es~
+    es d
+    c2. c4 %80
+    b2 r
+    R1*7 %88
+    b'1
+    g2 c %90
+    d, as'
+    c,1
+    r4 b( c d)
+    es b es2~
+    es d %95
+    e f~
+    f4 f e2
+    f4( e) f2
+    g4( f) g2~
+    g4 as( b as) %100
+    g1~
+    g2 f
+    R1
+    r2 as
+    g1 %105
+    fis
+    g
+    fis4 a g fis
+    g2. g4
+    a1 %110
+    R1*6 %116
+    a1
+    f2 b
+    cis, g'
+    b,!1 %120
+    r4 a( h cis)
+    d a d2~
+    d cis
+    d4 cis d e
+    f2 f %125
+    e2. e4
+    d2 r
+    R1
+    r4 g e g
+    f2 e %130
+    d f
+    e2. e4
+    fis-! fis( g a)
+    b2 b
+    a2. a4 %135
+    b2 g
+    a4( g) a2~
+    a4 b c b
+    a1~
+    a2 g %140
+    a1
+    g2. g4
+    fis2 r
+    fis1
+    g2 g %145
+    a1
+    d,2 es
+    d1~
+    d~
+    d~ %150
+    d~
+    d
+    g2 a
+    fis g
+    fis1 %155
+    d~
+    d4 d-! fis-! a-!
+    d2 <fis a, d,> \noBreak
+    q r\fermata \bar "||"
+    \time 3/4 \tempoFugisC \newSpacingSection
+      d4 d d \noBreak %160
+    r8 d d d d d
+    d([ c)] c-! es([ d es)]
+    c4 c c
+    r8 c c c c c
+    c( b) b4 b %165
+    b4. b8 b4
+    b b( a)\trillE
+    b8-! b,-! d-! f-! b-! d-!
+    b4 b b
+    r8 h h h h h %170
+    c4 c8-! g-! c-! e-!
+    c4 c c
+    r8 cis cis cis cis cis
+    d4 d8-! a-! fis-! d-!
+    r c' c c c c %175
+    c4\trill b8( d c b)
+    r a a a a a
+    b4. c8 b4
+    a \once \slurDashed g( fis)\trill
+    g r r %180
+    r8 fis(\sf a) c, es4~\p
+    es8( d) c4 b
+    r8 a a a a\pp a
+    g2 r4\fermata \bar "|." %184 finis
+  }
+}
+
+
 AegyptusViolinoII = {
   \relative c' {
     \clef treble

@@ -232,6 +232,186 @@ AnnaeViolinoI = {
   }
 }
 
+FugisViolinoI = {
+  \relative c' {
+    \clef treble
+    \key g \minor \time 3/4 \tempoFugis
+    g''4\fE g g
+    g4.( a16 b) a8-! g-!
+    g([ fis]) fis-! d'([ cis d])
+    f,4 f f
+    f4.( g16 as) g8-! f-! %5
+    f([ es]) es-! c'([ h c])
+    fis,2.
+    g4. es8 d4
+    c b( a)\trill
+    g8-! b'-! a8([ fis)] g( cis,) %10
+    d4 c2~
+    c8( b) a4 g8( b)
+    b4( a8) fis'([ g b,]) \noBreak
+    <d, b'>4-! <d a'>-! r\fermata \bar "||"
+    \time 2/2 \tempoFugisB \newSpacingSection
+      d'1-\markup \remark "sempre cantabile" \noBreak %15
+    b2 es
+    fis, c'
+    es,!1
+    r4 d( e fis)
+    g d g2~ %20
+    g fis
+    g4 a b c
+    d a d2
+    e4( d) e( f)
+    g f e d %25
+    cis2 g
+    f2. g8 f
+    e2. e4
+    d-! fis( g a)
+    b2. c8( b) %30
+    a1
+    b4( a) b2
+    c4( b) c2~
+    c4 d es d
+    c1~ %35
+    c2 b
+    a2. a4
+    g2 r
+    R1*9 %47
+    d'1
+    b2 es
+    fis, c' %50
+    es,!1
+    r4 d( e fis)
+    g d g2~
+    g fis
+    g4-! h( c d) %55
+    es2 es
+    d2. d4
+    c2 c
+    d4 c d es
+    f es d c %60
+    h2 f
+    es2. f8( es)
+    d2. d4
+    c2 r
+    R1*4 %68
+    g''1
+    es2 as %70
+    h, f'
+    as,1
+    r4 g( a h)
+    c g c2~
+    c h %75
+    c es~
+    es d~
+    d4 es8 d c4 b
+    a!2 b~
+    b a %80
+    b1
+    r4 f' c( d)
+    es d c b
+    a2 g
+    f1 %85
+    es2. es4
+    d2 r
+    R1*3 %90
+    r4 b' f'( g)
+    as g f es
+    d2 as
+    g2. as8( g)
+    f2 b~ %95
+    b as
+    g1
+    as4( g) as2
+    b4( as) b2~
+    b4 c( des c) %100
+    b1~
+    b2 as
+    g2. g4
+    f2 f'~
+    f es~ %105
+    es d!~
+    d c~
+    c b4 a
+    g a b c
+    d c8 b a4 b %110
+    c b a g
+    fis2 g4 a
+    d,2 d'
+    c2. c4
+    b2 g'~ %115
+    g f!
+    e2. e4
+    d2 d
+    e4( d e f)
+    g f e d %120
+    cis2 d4 e
+    a,1
+    g2. g4
+    f2 r
+    R1 %125
+    a'
+    f2 b
+    cis, g'
+    b,!1
+    r4 a( h cis) %130
+    d a d2~
+    d cis
+    d4-! d( e fis)
+    g d g2~
+    g fis %135
+    g b,
+    c4( b) c2~
+    c4 d es d
+    c1~
+    c2 b %140
+    a d~
+    d c
+    d r
+    r d~
+    d b %145
+    r es
+    fis, c'~
+    c b
+    a1~
+    a2 g4 b %150
+    c1~
+    c2 b
+    es1
+    d~
+    d2 c %155
+    b1\trill
+    a4 d,-! fis-! a-!
+    d2 d' \noBreak
+    d r\fermata \bar "||"
+    \time 3/4 \tempoFugisC \newSpacingSection
+      f,4 f f \noBreak %160
+    f4.( g16 as) g8-! f-!
+    f([ es)] es-! c'([ h c)]
+    es,4 es es
+    es4.( f16 g) f8-! es-!
+    es( d) d4 d %165
+    c4. c8 c4
+    d8( es) \once \slurDashed d4( c)\trill
+    b8-! b,-! d-! f-! b-! d-!
+    f4 f f
+    f4.( g16 as) g8-! f-! %170
+    f([ e)] e-! g,-! c-! e-!
+    g4 g g
+    g4.( a!16 b) a8-! g-!
+    g([ fis)] fis-! a,-! fis-! d-!
+    r8 es' es es es es %175
+    es4\trill d8( b' a g)
+    r fis fis fis fis fis
+    g4. es8 d4
+    c b( a)\trill
+    g8-! b'[-!\p a( fis) g( cis,)] %180
+    d4 c2~
+    c8( b) a4 g
+    r8 g g g fis\pp fis
+    g2 r4\fermata \bar "|." %184 finis
+  }
+}
+
 AegyptusViolinoI = {
   \relative c' {
     \clef treble

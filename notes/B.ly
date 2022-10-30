@@ -117,6 +117,286 @@ SeptemBassoLyrics = \lyricmode {
   ri de -- si -- de -- ro. %72 finis
 }
 
+FugisBasso = {
+  \relative c {
+    \clef bass
+    \key g \minor \time 3/4 \autoBeamOff \tempoFugis
+    R2.*12 %12
+    \mvDl d'4\fE^\tuttiE d, r \noBreak
+    d' d, r\fermata \bar "||"
+    \time 2/2 \tempoFugisB \newSpacingSection
+      R1*24 %38
+    g1
+    f!2 b %40
+    cis,( g')
+    b,!1
+    r4 a h cis
+    d a d2~
+    d cis4. cis8 %45
+    d4 d e fis
+    g d g2~
+    g fis4. fis8
+    g2 c~
+    c4 b a g %50
+    fis1
+    g2 c,(
+    b) es!
+    c d
+    g, f'!( %55
+    es2.) f4
+    g2. g4
+    as2 r
+    R1*4 %62
+    g1
+    es2 as
+    h,( f') %65
+    as,1
+    r4 g a h
+    c g c2~
+    c h4. h8
+    c2 f %70
+    g1
+    r4 f d f
+    es2 d
+    c as'
+    f g %75
+    c, c'(
+    a!) b
+    es,1
+    f2 b,
+    f'1 %80
+    g2 es
+    f r
+    r es
+    f es
+    d1 %85
+    c
+    b2 b'~
+    b as~
+    as g
+    c as %90
+    b r
+    R1*5 %96
+    c1
+    as2 des
+    e,( b')
+    des,1 %100
+    r4 c d e
+    f c f2~
+    f e4. e8
+    f4 es d! c
+    h2 c %105
+    d1
+    es2. es4
+    d1
+    es
+    d2 r %110
+    r c
+    d c
+    b1
+    a2. a4
+    g1 %115
+    d'
+    a
+    b2 r
+    R1
+    r2 g' %120
+    a g
+    f1
+    e2. e4
+    d a' h cis
+    d a d2~ %125
+    d cis4. cis8
+    d2 g,~
+    g4 f e d
+    cis1
+    d2 g %130
+    f b!
+    g a
+    d, r
+    R1
+    d' %135
+    b2 es
+    fis,( c')
+    es,!1
+    r4 d e fis
+    g d g2~ %140
+    g f!
+    es2. es4
+    d2 r
+    d1~
+    d~ %145
+    d~
+    d~
+    d~
+    d~
+    d~ %150
+    d~
+    d~
+    d~
+    d~
+    d~ %155
+    d2 d
+    d r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/4 \tempoFugisC \newSpacingSection
+      \mvTr h'4 h h \noBreak %160
+    h2 h4
+    c c, r
+    c' c c
+    a!2 a4
+    b! b, d %165
+    es4. es8 e4
+    f8([ g)] f4. f8
+    b,2 r4
+    d d d
+    des2 des4 %170
+    c c r
+    e e e
+    es2 es4
+    d d r
+    fis2. %175
+    g4 g, r
+    c'2.
+    b4. fis8 g4
+    c, d4. d8
+    g,4 r r %180
+    R2.*3
+    R2.\fermata \bar "|." %184 finis
+  }
+}
+
+FugisBassoLyrics = \lyricmode {
+  Fu -- gis, %13
+  fu -- gis,
+
+  fu -- %39
+  gis, Ma -- %40
+  ri --
+  a,
+  pro -- lis o --
+  nu -- sta pon --
+  _ de -- %45
+  re, o -- nu -- sta
+  ca -- ro pon --
+  _ de --
+  re, o --
+  _ _ _ %50
+  nu --
+  sta ca --
+  ro
+  pon -- de --
+  re, ca -- %55
+  ro
+  pon -- de --
+  re,
+
+  fu -- %63
+  gis, Ma --
+  ri -- %65
+  a,
+  pro -- lis o --
+  nu -- sta pon --
+  _ de --
+  re, fu -- %70
+  gis,
+  pro -- lis o --
+  nu -- sta
+  ca -- ro
+  pon -- de -- %75
+  re, ca --
+  ro
+  pon --
+  _ _
+  _ %80
+  _ de --
+  re,
+  o --
+  nu -- sta
+  ca -- %85
+  _
+  ro pon --
+  _
+  _
+  _ de -- %90
+  re,
+
+  fu -- %97
+  gis, Ma --
+  ri --
+  a, %100
+  pro -- lis o --
+  nu -- sta pon --
+  _ de --
+  re, o -- nu -- sta
+  pon -- _ %105
+  _
+  _ de --
+  re,
+  ca --
+  ro %110
+  o --
+  nu -- sta
+  pon --
+  _ de --
+  re, %115
+  o --
+  nu --
+  sta,
+
+  o -- %120
+  nu -- sta
+  pon --
+  _ de --
+  re, pro -- lis o --
+  nu -- sta pon -- %125
+  _ de --
+  re, o --
+  _ _ _
+  nu --
+  sta, o -- %130
+  nu -- sta
+  pon -- de --
+  re,
+
+  fu -- %135
+  gis, Ma --
+  ri --
+  a,
+  pro -- lis o --
+  nu -- sta pon -- %140
+  _
+  _ de --
+  re,
+  pon --
+
+  de -- %156
+  re,
+
+  et lu -- mi -- %160
+  na -- re
+  so -- lis,
+  et lu -- mi --
+  na -- re
+  so -- lis de %165
+  no -- cte vis
+  ab -- scon -- de --
+  re,
+  et lu -- mi --
+  na -- re %170
+  so -- lis,
+  et lu -- mi --
+  na -- re
+  so -- lis
+  de %175
+  no -- cte,
+  de
+  no -- cte vis
+  ab -- scon -- de --
+  re. %180 finis
+}
+
 InPatrisBasso = {
   \relative c {
     \clef bass

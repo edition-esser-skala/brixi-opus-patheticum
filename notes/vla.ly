@@ -28,8 +28,8 @@ SeptemViola = {
     f es r es f es r4
     h'8\f h h c d d d d
     c c h h g g a! a
-    d,4 r16 d(-.\p d-. d-.) r g(-. g-. g-.) r g(-. g-. g-.) %25
-    r g(-. g-. g-.) r c,(-. c-. c-.) d2\fermata
+    d,4 r16 d-.\p d-. d-. r g-. g-. g-. r g-. g-. g-. %25
+    r g-. g-. g-. r c,-. c-. c-. d2\fermata
     r8 h\f h h h h h d
     d4\fermata r8 \mvDl d\p es d c as'
     g4. f8 es4 r8 g\f
@@ -52,8 +52,8 @@ SeptemViola = {
     es, es es es es es es es es es es es es es es es
     d d d d d d d d e e e e e e e e
     a a a a a a a a a a a a a a a a
-    a4 r16 e(-.\p e-. e-.) r a(-. a-. a-.) r a(-. a-. a-.)
-    r a(-. a-. a-.) r d,(-. d-. d-.) e2\fermata %50
+    a4 r16 e-.\p e-. e-. r a-. a-. a-. r a-. a-. a-.
+    r a-. a-. a-. r d,-. d-. d-. e2\fermata %50
     r8 cis\f cis cis cis cis cis e
     e4\fermata r8 \mvDl e\p f e d b'
     a4. g8 f4 r8 a\f
@@ -69,8 +69,8 @@ SeptemViola = {
     f es r4 f8 es r4
     g8\f g g g a! a a a
     d,^\critnote d d d d d d d %65
-    d4 r16 a(-.\p a-. a-.) r d(-. d-. d-.) r d(-. d-. d-.)
-    r d(-. d-. d-.) r g,(-. g-. g-.) a2\fermata
+    d4 r16 a-.\p a-. a-. r d-. d-. d-. r d-. d-. d-.
+    r d-. d-. d-. r g,-. g-. g-. a2\fermata
     r8 fis'\f fis fis fis fis fis a
     a4\fermata r8 a,\p b c d es
     d4. c8 b4 r8 d\f %70
@@ -105,12 +105,12 @@ AnnaeViola = {
     f,2 r4
     d' es f %15
     b,2 r4
-    r8 c-! h( c) h( c)
+    r8 c-! h c h c
     as4 b b
-    r8 es-! g( f) es( des)
+    r8 es-! g f es des
     c2 r4 %20
     g2 c4
-    r8 f-! as( g) f( es!)
+    r8 f-! as g f es!
     d2 r4
     a2 d4
     d r d %25
@@ -124,9 +124,9 @@ AnnaeViola = {
     d,2 r4
     h' c d
     g,2 r4 %35
-    r8 as-! g( as) g( as)
+    r8 as-! g as g as
     f4 g g,
-    c,8 c'-! h( c) h( c)
+    c,8 c'-! h c h c
     as2 r4
     f g g %40
     c,2 r4
@@ -139,7 +139,7 @@ AnnaeViola = {
     d2 es4
     d2 h4
     c4. es8 d c %50
-    b!4 \slurDashed g'8( es) g( es) \slurSolid
+    b!4 \slurDashed g'8 es g es \slurSolid
     f2 es4
     d2 b4
     b b r
@@ -147,7 +147,7 @@ AnnaeViola = {
     r4 es f
     r g g
     g2.
-    f4( g as)
+    f4 g as
     r des, h %60
     c r r
     c2\f r4
@@ -155,12 +155,12 @@ AnnaeViola = {
     f2 es4
     r f f %65
     f2.
-    es4( f g)
+    es4 f g
     r es a,
     b r r
-    r8 b-! c( b) c( d) %70
-    es4 f( g)
-    r8 b,-! c( b) c( d)
+    r8 b-! c b c d %70
+    es4 f g
+    r8 b,-! c b c d
     es4 r r
     b c b
     g r r %75
@@ -168,7 +168,7 @@ AnnaeViola = {
     as r r
     a b c
     f,2 r4
-    r8 d-! es( d) es( f) %80
+    r8 d-! es d es f %80
     b,4 r r
     es2 d4
     <es g,>2 r4
@@ -176,7 +176,7 @@ AnnaeViola = {
     b b r %85
     r g'\f f
     e2.\p
-    f4 c8( b) b( as)
+    f4 c8 b b as
     as2 c4
     c c r %90
     r a'\f g
@@ -193,14 +193,14 @@ AnnaeViola = {
     g2 r4
     r f fis
     g r r
-    r8 g'-!\f fis( g) fis( g) %105
+    r8 g'-!\f fis g fis g %105
     g,2 r4
     R2.
-    b4(\f c des)\p
+    b4\f c des\p
     c r r
     r8 f\f f,4 r %110
     R2.
-    c'4(\f d es)\p
+    c'4\f d es\p
     es\trill d r
     r g, g
     g2 r4 %115
@@ -223,12 +223,161 @@ AnnaeViola = {
     d, r r
     h' c d
     g, r r
-    r8 as-! g( as) g( as) %135
+    r8 as-! g as g as %135
     f4 g g,
-    r8 c-! h( c) h( c)
+    r8 c-! h c h c
     as2 r4
     f' g g,
     c,2 r4\fermata \bar "|." %140 finis
+  }
+}
+
+FugisViola = {
+  \relative c' {
+    \clef alto
+    \key g \minor \time 3/4 \tempoFugis
+    d4\fE d d
+    r8 d d b es e
+    d4 d r
+    h h h
+    r8 h h h g' g %5
+    g4 g r
+    r8 es es es es es
+    d4. a8 b4
+    es d d
+    d r r %10
+    r r r8 g
+    a g es4 e
+    d d r8 e \noBreak
+    d4-! d-! r\fermata \bar "||"
+    \time 2/2 \tempoFugisB \newSpacingSection
+      R1*16 %30
+    d1-\markup \remark "sempre cantabile"
+    b2 es
+    fis, c'
+    es,!1
+    r4 d( e fis) %35
+    g d g2~
+    g fis
+    g c~
+    c h4 cis
+    d( cis) d2 %40
+    e4( d) e2~
+    e4 f( g f)
+    e1
+    a,
+    g2. g4 %45
+    fis-! fis( g a)
+    b2 b
+    a2. a4
+    g2 r
+    R1 %50
+    r4 c a c
+    b2 a
+    g b
+    a2. a4
+    g-! g( a h) %55
+    c g c2~
+    c h4. h8
+    c2 r
+    R1*5 %63
+    r2 c
+    d4( c) \once \tieDashed d2~ %65
+    d4 es( f es)
+    d1~
+    d2 c
+    R1
+    r2 f~ %70
+    f4 es d c
+    h1
+    c2 r
+    R1*6 %79
+    f1 %80
+    d2 g
+    a, es'
+    g,1
+    r4 f( g a)
+    b f \once \tieDashed b2~ %85
+    b a
+    b d
+    c f
+    d es
+    es2. c4 %90
+    b2 r
+    R1*9 %100
+    r4 e( f g)
+    c,1
+    b2. b4
+    as2 d!~
+    d c4 b! %105
+    a!1
+    R
+    d
+    b2 es
+    fis, c' %110
+    es,!1
+    r4 d( e fis)
+    g d g2~
+    g fis
+    g b %115
+    a d~
+    d cis
+    d r
+    R1*8 %126
+    d1
+    a2 r
+    e'1
+    a,2 r %130
+    R1*4
+    d1 %135
+    d2 r
+    R1*3
+    d1 %140
+    c2 d
+    es2. es4
+    a,2 r
+    d1
+    b2 es %145
+    fis, c'~
+    c4 b a g
+    fis2 g~
+    g fis4 a
+    b1~ %150
+    b2 a4 c
+    \once \tieDashed d1~
+    d2 \once \tieDashed c~
+    c b
+    a1~ %155
+    a2 g
+    fis r
+    r4 d''-! a-! fis-! \noBreak
+    d2 r\fermata \bar "||"
+    \time 3/4 \tempoFugisC \newSpacingSection
+      g4 g g \noBreak %160
+    r8 g g g g g
+    g4 g r
+    g g g
+    r8 f f f f f
+    f4 f f %165
+    g4. g8 g4
+    f8( g) \once \slurDashed f4( es)\trill
+    d r r
+    b b b
+    r8 as as as as as %170
+    as( g) g4 r
+    c c c
+    r8 b! b b b b
+    b( a!) a4 r
+    r8 a a a a a %175
+    g4 g r
+    r8 es' es es es es
+    d4. a8 b4
+    es d d
+    d r r %180
+    r r r8 g\p
+    fis( g) c,4 cis
+    d r d,\pp
+    g2 r4\fermata \bar "|."
   }
 }
 
@@ -290,7 +439,7 @@ AegyptusViola = {
     d r c r
     c r b r
     b r f' r
-    f b,( c d) %55
+    f b, c d %55
     es r g, r
     f r r8 c'-! c-! c-!
     b4 r f' r
@@ -314,8 +463,8 @@ AegyptusViola = {
     r c-! c-! c-! r c-! c-! c-!
     r b-! b-! b-! r b-! b-! b-!
     r b-! b-! b-! b4 r
-    r g'( as) r
-    r a( b) r %80
+    r g' as r
+    r a b r %80
     b, r b r
     ces r ces r
     b r r2
@@ -380,7 +529,7 @@ InPatrisViola = {
     g b es d c b
     a c f es d c
     b d g f es d
-    c4 a'8( f) f4
+    c4 a'8 f f4
     f es g %30
     f8-! a-! a,4 r
     r8 f\p g f g a
@@ -409,9 +558,9 @@ InPatrisViola = {
     R2. %55
     r4 r b\p
     g a r
-    r8 c( d c d e)
+    r8 c d c d e
     f4 r r
-    r8 c( d c d e) %60
+    r8 c d c d e %60
     f4 r r
     c e f
     g d e
@@ -469,9 +618,9 @@ InPatrisViola = {
     r4 r c\p %115
     f, g r
     b2\f r4
-    r8 b(\p c b c d)
+    r8 b\p c b c d
     es4 r r
-    r8 b( c b c d) %120
+    r8 b c b c d %120
     es4 r r
     f d es
     f c d
@@ -491,8 +640,8 @@ InPatrisViola = {
     f2 es4
     d2.
     c4 es c
-    a2 f'8( es) %140
-    d( c) b2
+    a2 f'8 es %140
+    d c b2
     a4 r8 f b a
     g b es d c b
     a c f es d c
@@ -538,7 +687,7 @@ InPatrisViola = {
     g b es d c b
     a c f es d c %185
     b d g f es d
-    c4 a'8( f) f4
+    c4 a'8 f f4
     f es g
     f8-! a-! a,4 r
     r8 f\p g f g a %190

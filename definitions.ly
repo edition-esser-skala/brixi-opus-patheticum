@@ -8,6 +8,9 @@
 
 tempoSeptem = \tempoMarkup "Largo"
 tempoAnnae = \tempoMarkup "Larghetto"
+tempoFugis = \tempoMarkup "Largo"
+  tempoFugisB = \tempoMarkup "Allabreve moderato"
+  tempoFugisC = \tempoMarkup "Largo"
 tempoAegyptus = \tempoMarkup "Andante"
 tempoInPatris = \tempoMarkup "Andante"
 
